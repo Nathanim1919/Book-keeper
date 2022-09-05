@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="add">Add Bookmark</h1>
+<div class="bookmark-container" id="container">
+</div>
+
+
+<div class="modal" id="modal">
+    <div class="modal_content" id="modal_content">
+        <div class="header">
+            <i class="fa-solid fa-times close" id="closemodal"></i>
+            <h3>Add new bookmark</h3>
+        </div>
+
+        <div class="modal_form" id="modal_form">
+            <form action="">
+                <div class="name">
+                    <label for="websitename">website name</label>
+                    <input type="text" id="websitename">
+                </div>
+                <div class="url">
+                    <label for="websiteurl">website url</label>
+                    <input type="text" id="websiteurl">
+                </div>
+                <button type="submit" id="btn">Save</button>
+            </form>
+        </div>
+    </div>
+</div>
+    
+</body>
+</html>
